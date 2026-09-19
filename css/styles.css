@@ -1,22 +1,12 @@
-/* .navbar {
-  display: inline;
-  background-color: brown;
-}
-
-h1 {
-  background-color: grey;
-  display: inline;
-}
-
-.navbar li{
-  background-color: blueviolet;
-  display: inline;
-}
-
 nav {
-  background-color: cadetblue;
-} */
-
-nav, ul, li {
-  display: flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
 }
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
