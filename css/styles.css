@@ -1,13 +1,40 @@
+body {
+    text-align: center;
+    line-height: 1.6;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: black;
+    line-height: 1;
+}
+
+
+
+.nav-text {
     color: white;
+    text-decoration: none;
 }
 
 .nav-links {
+    margin-right: 20px;
     display: flex;
     gap: 20px;
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+
+.openning {
+    color: white;
+    background-image:url(../images/amirreza-marand.jpg);
+    padding: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
