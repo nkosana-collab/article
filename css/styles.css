@@ -1,6 +1,7 @@
 body {
     text-align: center;
     line-height: 1.6;
+    margin: 0%;
 }
 
 nav {
@@ -28,14 +29,17 @@ nav {
     margin-left: 20px;
 }
 
+article {
+    margin: 20px;
+}
 
 .openning {
     color: white;
     background-image:url(../images/amirreza-marand.jpg);
-    padding: 150px;
+    padding: 170px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    
+
 }
 
