@@ -12,7 +12,16 @@ nav {
     line-height: 1;
 }
 
+img {
+    max-inline-size: 100%;
+}
 
+.two-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: start;
+    gap: 50px;
+}
 
 .nav-text {
     color: white;
@@ -43,3 +52,27 @@ article {
 
 }
 
+p {
+    line-height: 1.3;
+}
+
+.impact-box {
+    padding: 20px;
+    border: 10px grey;
+    background-color: lightgray;
+    margin: 20px;
+}
+
+
+
+
+
+
+
+/*
+
+inline-size != width
+margin-block
+block-size == paragraph hight as a block != hight
+padding for more surrounding space/backround 
+max-inline-size == to contain everything in one size incase of expanding screens
